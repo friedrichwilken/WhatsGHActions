@@ -1,0 +1,13 @@
+name: hello lauri
+
+on: 
+  push:
+    branches: 
+      - master
+
+jobs:
+  Hello:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Hello Lauri!
+        run: echo "Hello Lauri"
